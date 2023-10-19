@@ -1,0 +1,45 @@
+:root {
+    --dark_red: #cc0000;
+    --darker_red: #aa0000;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar {
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    background-color: var(--dark_red);
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+}
+
+.toolbar > button {
+    height: 100%;
+    width: 10vw;
+    margin: 1vw;
+
+    font-size: 1.5em;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.toolbar > button:hover {
+    background-color: var(--darker_red);
+}
+
+.toolbar > a {
+    margin-right: auto;
+}
+
+.toolbar > a > img {
+    
+    height:10vh;
+}
