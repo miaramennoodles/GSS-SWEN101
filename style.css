@@ -35,11 +35,18 @@ body {
     background-color: var(--darker_red);
 }
 
-.toolbar > a {
+.toolbar > .home {
     margin-right: auto;
 }
 
-.toolbar > a > img {
-    
+.toolbar > .home > img {
     height:10vh;
+}
+
+.toolbar > .account > img {
+    height: 5vh;
+}
+
+.toolbar > .account {
+    margin-right: 2vw;
 }
