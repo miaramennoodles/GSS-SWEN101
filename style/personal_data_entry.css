@@ -31,9 +31,6 @@ body {
     border: none;
 }
 
-
-
-
 .toolbar > .home {
     margin-right: auto;
 }
@@ -49,3 +46,8 @@ body {
 .toolbar > .account {
     margin-right: 2vw;
 }
+
+.data {
+    margin-top: 20vh;
+    justify-content: left;
+} 
