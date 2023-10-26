@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Playfair+Display&display=swap');
+
 :root {
     --dark_red: #cc0000;
     --darker_red: #aa0000;
@@ -29,6 +31,7 @@ body {
     color: white;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .toolbar > button:hover {
