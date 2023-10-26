@@ -1,4 +1,51 @@
-.data {
-    margin-top: 20vh;
-    justify-content: left;
-} 
+:root {
+    --dark_red: #cc0000;
+    --darker_red: #aa0000;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar {
+    top: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    background-color: var(--dark_red);
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+}
+
+.toolbar > button {
+    height: 100%;
+    width: 10vw;
+    margin: 1vw;
+
+    font-size: 1.5em;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+
+.toolbar > .home {
+    margin-right: auto;
+}
+
+.toolbar > .home > img {
+    height:10vh;
+}
+
+.toolbar > .account > img {
+    height: 5vh;
+}
+
+.toolbar > .account {
+    margin-right: 2vw;
+}
