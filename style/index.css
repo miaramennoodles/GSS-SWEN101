@@ -1,0 +1,9 @@
+body {
+    background-image: url("../images/home_image.jpg");
+    background-size: cover;
+}
+
+#content {
+    height: 300%;
+    font-size: 2em;
+}
