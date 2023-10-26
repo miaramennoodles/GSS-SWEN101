@@ -31,9 +31,8 @@ body {
     border: none;
 }
 
-.toolbar > button:hover {
-    background-color: var(--darker_red);
-}
+
+
 
 .toolbar > .home {
     margin-right: auto;
@@ -50,3 +49,8 @@ body {
 .toolbar > .account {
     margin-right: 2vw;
 }
+
+.data {
+    margin-top: 10vh;
+    justify-content: left;
+} 
