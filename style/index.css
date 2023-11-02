@@ -36,7 +36,7 @@ p {
     width: 80vw;
     margin: auto;
     height: 20vw;
-    box-shadow: 3px 3px 15px black;
+    box-shadow: 3px 3px 16px black;
     margin-top: 5vw;
     cursor: pointer;
 }
