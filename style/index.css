@@ -62,19 +62,57 @@ p {
     font-family: "Playfair Display";
 }
 
-.contact {
+#contact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    box-shadow: 3px 3px 16px black;
+    margin-top: 5vw;
 }
 
-.contact > img {
-    grid-column: 1 / span 1
+#contact > img {
+    grid-column: 1 / span 1;
+    width: 30vw;
 }
 
-.contact > p {
-    grid-column: 2 / span 1
+#contact > div {
+    grid-column: 2 / span 2;
+    margin-top: 0px
 }
 
-.contact > form {
-    grid-column: 3 / span 1
+#contact > div > * {
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+#contact > div > p {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#contact > div > span {
+    margin-right: 10px;
+}
+
+#contact > div > form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family: "Playfair Display";
+    font-size: 1.5em;
+}
+
+#contact > div > form > div > textarea {
+    width: 25vw;
+    height: 20vw;
+    max-width: 25vw;
+    max-height: 20vw;
+    margin-top: 0.51vw;
+}
+
+#contact > div > form > div > input, textarea {
+    width: 12vw;
+    max-width: 12vw;
+    height: 1.25vw;
+    font-size: 0.75em;
+    font-family: 'Times New Roman', Times, serif;
 }

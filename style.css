@@ -26,6 +26,8 @@ body {
     height: 100%;
     width: 10vw;
     margin: 1vw;
+    margin-left: 0px;
+    margin-right: 0px;
 
     font-size: 1.5em;
     color: white;
@@ -34,10 +36,11 @@ body {
     cursor: pointer;
 }
 
+.toolbar > button:hover {
+    background-color: var(--darker_red);
+}
 
-
-
-.toolbar > .home {
+.toolbar > .home {      
     margin-right: auto;
 }
 
@@ -45,10 +48,6 @@ body {
     height:10vh;
 }
 
-.toolbar > .account > img {
-    height: 5vh;
-}
-
-.toolbar > .account {
-    margin-right: 2vw;
+p {
+    color: gray;
 }
