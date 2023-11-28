@@ -45,6 +45,8 @@ p {
 .news > .image {
     grid-area: 0 / 1;
     overflow: hidden;
+    height: 20vw;
+    width: 20vw;
 }
 
 .news > .image > img {
