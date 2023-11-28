@@ -66,3 +66,91 @@ body {
 p {
     color: gray;
 }
+
+#contact {
+    box-shadow: 3px 3px 16px gray;
+    margin-top: 5vw;
+    height: 45vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#contact > img {
+    height: 45vw;
+    float: left;
+}
+
+#contact > div > * {
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+#contact > div > p {
+    padding-top: 0.5em;
+}
+
+#contact > div > p > span {
+    margin-right: 25px;
+}
+
+#contact > div > h2 {
+    float: left;
+}
+
+#contact > div > form {
+    font-family: "Playfair Display";
+    font-size: 1.5em;
+    margin-right: 25px;
+    margin-top: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+#contact > div > form > * {
+    margin-left: 1px;
+}
+
+#contact > div > form > #textarea {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+    height: 20vw;
+    max-height: 20vw;
+}
+
+#contact > div > form > div > input, textarea {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact > div > form > div > textarea {
+    width: calc(38vw + 6px);
+    height: 15vw;
+    font-size: 0.75em;
+    padding: 5px;
+    resize: none;
+}
+
+#contact > div > form > div > input {
+    padding: 5px;
+    width: 20vw;
+    max-width: 18vw;
+    height: 1.25vw;
+    font-size: 0.75em;
+}
+
+form > #submit {
+    height: 50px;    
+    border: none;
+    border-radius: none;
+    background-color: var(--dark_red);
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 1em;
+    cursor: pointer;
+    width: 12.5vw;
+}
+
+form > #submit:hover {
+    background-color: var(--darker_red)
+}
