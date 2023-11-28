@@ -30,11 +30,14 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 
+    font-family: "Playfair Display";
+    font-weight: bold;
     font-size: 1.5em;
     color: white;
     background-color: transparent;
     border: none;
     cursor: pointer;
+
 }
 
 .toolbar > button:hover {
@@ -42,7 +45,12 @@ body {
 }
 
 .toolbar > #account {
-    font-size: 100px;
+    width: 5vw;
+}
+
+.toolbar > #account > span {
+    font-size: 1em;
+    scale: 1.75 1.75;
 }
 
 .toolbar > .home {      

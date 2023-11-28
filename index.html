@@ -11,16 +11,16 @@
 </head>
 
 <body>
-    <div class="toolbar">
-        <a class="home" href="index.html"><img src="images/logo.png"></a>
-        <button onclick="window.location.href='about_us.html';">About Us</button>
-        <button onclick="window.location.href='donate.html';">Donate</button>
-        <button onclick="window.location.href='volunteer.html';">Volunteer</button>
-        <button onclick="window.location.href='index.html';">Contact</button>
-        <button id="account" onclick="window.location.href='#contact_link';"><span class="material-symbols-outlined">account_circle</span></button>
-    </div>
+  <div class="toolbar">
+    <a class="home" href="index.html"><img src="images/logo.png"></a>
+    <button onclick="window.location.href='about_us.html';">About Us</button>
+    <button onclick="window.location.href='donate.html';">Donate</button>
+    <button onclick="window.location.href='volunteer.html';">Volunteer</button>
+    <button onclick="window.location.href='index.html#contact_link';">Contact</button>
+    <button id="account" ><span class="material-symbols-outlined">account_circle</span></button>
+</div>
 
-    <h1>Home Title</h1>
+    <h1>Good Samaritans for Syria</h1>
 
     <div id="content">
       <h2>Our Mission Statement</h2>
@@ -53,26 +53,30 @@
         
       </div>
 
+      <a id="contact_link"></a>
+
       <div id="contact">
 
         <img src="images/avengers_tower.webp">
         <div>
-          <h2><a id="contact_link">Contact Us!</a></h2>
+          <h2>Contact Us!</h2>
           <p>555-420-6969 <span></span> contact@syrref.org</p>
           <form>
             <div>
               <label for="name">Full Name</label> <br>
               <input id="name" type="text" size="20"> <br><br>
+            </div>
+            <div>
               <label for="email">E-Mail</label> <br>
               <input id="email" type="email" size="20"> <br> <br>
-  
-              <input id="submit" type="submit" value="Submit">
             </div>
             
-            <div>
+            <div id="textarea">
               <label for="message">Message</label> <br>
               <textarea id="message"></textarea><br>
             </div>
+
+            <input id="submit" type="submit" value="Submit">
   
           </form>
         </div>
