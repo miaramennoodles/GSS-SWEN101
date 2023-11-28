@@ -40,6 +40,10 @@ body {
     background-color: var(--darker_red);
 }
 
+.toolbar > #account {
+    font-size: 100px;
+}
+
 .toolbar > .home {      
     margin-right: auto;
 }
