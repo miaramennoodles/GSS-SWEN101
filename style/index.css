@@ -64,21 +64,20 @@ p {
 }
 
 #contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
     box-shadow: 3px 3px 16px black;
     margin-top: 5vw;
+    height: 45vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 #contact > img {
-    grid-column: 1 / span 1;
-    width: 30vw;
+    height: 45vw;
+    float: left;
 }
 
 #contact > div {
-    grid-column: 2 / span 2;
-    margin-top: 0px
+    border: 1px solid green;
 }
 
 #contact > div > * {
@@ -87,35 +86,43 @@ p {
 }
 
 #contact > div > p {
-    margin-top: 20px;
-    margin-bottom: 0;
+    padding-top: 0.5em;
 }
 
-#contact > div > span {
-    margin-right: 10px;
+#contact > div > p > span {
+    margin-right: 25px;
 }
 
-#contact > div > form {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+#contact > div > h2 {
+    float: left;
+}
+
+form {
     font-family: "Playfair Display";
     font-size: 1.5em;
+    margin-right: 25px;
+    margin-top: 10px;
 }
 
-#contact > div > form > div > input, textarea {
+form > div {
+    padding-left: 10px;
+}
+
+
+form > div > input, textarea {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#contact > div > form > div > textarea {
+form > div > textarea {
     width: 25vw;
-    height: 20vw;
+    height: 10vw;
     max-width: 25vw;
     max-height: 20vw;
     font-size: 0.75em;
     padding: 10px;
 }
 
-#contact > div > form > div > input {
+form > div > input {
     padding: 10px;
     width: 10vw;
     max-width: 10vw;
@@ -123,9 +130,10 @@ p {
     font-size: 0.75em;
 }
 
-#contact > div > form > div > #submit {
+
+
+form > div > #submit {
     height: 50px;    
-    margin-top: auto;
     border: none;
     border-radius: none;
     background-color: var(--dark_red);
@@ -135,6 +143,6 @@ p {
     width: 12.5vw;
 }
 
-#contact > div > form > div > #submit:hover {
+form > div > #submit:hover {
     background-color: var(--darker_red)
 }

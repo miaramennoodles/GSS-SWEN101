@@ -20,6 +20,7 @@ body {
     position: fixed;
     height: 10vh;
     width: 100%;
+    box-shadow: 3px 3px 16px black;
 }
 
 .toolbar > button {
@@ -49,7 +50,9 @@ body {
 }
 
 .toolbar > .home > img {
-    height:10vh;
+    height: 16vw;
+    margin-left: -3vw;
+    margin-top: 5vw;
 }
 
 p {
