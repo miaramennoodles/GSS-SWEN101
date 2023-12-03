@@ -44,15 +44,6 @@ body {
     background-color: var(--darker_red);
 }
 
-.toolbar > #account {
-    width: 5vw;
-}
-
-.toolbar > #account > span {
-    font-size: 1em;
-    scale: 1.75 1.75;
-}
-
 .toolbar > .home {      
     margin-right: auto;
 }

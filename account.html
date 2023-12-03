@@ -4,6 +4,7 @@
 <head>
 
   <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/account.css">
 
 </head>
 
@@ -17,6 +18,55 @@
     <button id="account" ><span class="material-symbols-outlined">account_circle</span></button>
 </div>
 
+  <div id="content">
+
+    <form id="signup">
+
+      <label for="name">Full Name</label> <br>
+      <input id="name" type="text" size="20" required> <br><br>
+  
+      <label for="email">E-Mail</label> <br>
+      <input id="email" type="email" size="20" required> <br> <br>
+  
+      <label for="number">Phone Number</label> <br>
+      <input id="number" type="tel" size="20" required> <br> <br>
+
+      <label for="password">Password</label> <br>
+      <input id="password" type="password" size="20" required> <br> <br>
+    </form>
+  
+  
+    <a id="contact_link"></a>
+  
+    <div id="contact">
+
+      <img src="images/avengers_tower.webp">
+      <div>
+        <h2>Contact Us!</h2>
+        <p>555-420-6969 <span></span> contact@syrref.org</p>
+        <form>
+          <div>
+            <label for="name">Full Name</label> <br>
+            <input id="name" type="text" size="20" required> <br><br>
+          </div>
+          <div>
+            <label for="email">E-Mail</label> <br>
+            <input id="email" type="email" size="20" required> <br> <br>
+          </div>
+          
+          <div id="textarea">
+            <label for="message">Message</label> <br>
+            <textarea id="message" required></textarea><br>
+          </div>
+
+          <input id="submit" type="submit" value="Submit">
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  
 
 </body>
 
