@@ -1,0 +1,60 @@
+:root {
+    background-image: url("../images/volunteering_image.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-top: 50vh;
+    color: white;
+    font-size: 4em;
+    margin-left: 10vw;
+    font-family: "Playfair Display";
+}
+
+#content {
+    height: 100%;
+    font-size: 1em;
+    background-color: white;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+}
+
+h2 {
+    font-family: "Playfair Display";
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#team {
+    display: flex;
+    justify-content: space-between;
+}
+
+#team > div {
+    width: 22%;
+    box-shadow: 3px 3px 16px gray;
+}
+
+#team > div > img {
+    width: 100%;
+}
+
+#team > div > h3 {
+    font-size: 1.5em; 
+    text-align: center;
+    margin-top: 5px;
+    font-family: "Playfair Display";
+}
+
+#team > div > p {
+    word-wrap: break-word;
+    font-size: 1.25em;
+    margin: 15px;
+    margin-top: -10px;
+}
