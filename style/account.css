@@ -4,9 +4,8 @@
     background-color: white;
     padding-left: 10vw;
     padding-right: 10vw;
-    padding-top: 2vh;
     padding-bottom: 10vh;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 h2 {
@@ -16,4 +15,43 @@ h2 {
 
 p {
     font-size: 1.5em;
+}
+
+#forms {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    height: 45vw;
+}
+
+#forms > form {
+    box-shadow: 3px 3px 16px gray;
+    margin-top: 5vw;
+    font-family: "Playfair Display";
+    padding-left: 4em;
+}
+
+#forms > form > label {
+    font-size: 1.5em;
+}
+
+#forms > form > .textbox {
+    padding: 5px;
+    width: 20vw;
+    max-width: 18vw;
+    height: 1.25vw;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.submit {
+    height: 50px;    
+    border: none;
+    border-radius: none;
+    background-color: var(--dark_red);
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 1.5em;
+    cursor: pointer;
+    width: 12.5vw;
 }
